@@ -1,23 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Avaneesh Srinivasa | Senior Systems and Safety Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avaneesh Srinivasa | Systems & Safety Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f8fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+
+    .hero {
+      background: white;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: 2.3rem;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: 1.05rem;
+      color: #4b5563;
+      max-width: 720px;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      margin: 8px 0 20px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      margin-bottom: 24px;
+    }
+
+    .project-card h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+    }
+
+    .project-card p {
+      margin-bottom: 18px;
+      color: #4b5563;
+    }
+
+    .tag-row {
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eef2ff;
+      color: #3730a3;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      background: #111827;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #1f2937;
+    }
+
+    .coming-soon {
+      color: #6b7280;
+      font-size: 0.98rem;
+      margin-top: 8px;
+    }
+
+    .footer {
+      margin-top: 36px;
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero,
+      .project-card {
+        padding: 24px;
+      }
+
+      .hero h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <section class="hero">
+      <h1>Avaneesh</h1>
+      <p>
+        Systems and Safety Engineer passionate about solving mobility problems and safely enhancing self-driving capability at scale.
+      </p>
+    </section>
 
-<h1>Hi, I'm Avaneesh 👋</h1>
-<p>Systems & Safety Engineer passionate about solving mobility problems and safely enhancing self-driving capability.</p>
+    <section>
+      <h2 class="section-title">Featured Work</h2>
 
-<h2>🧠 Integrated Safety Lifecycle</h2>
+      <div class="project-card">
+        <h2>Integrated Safety Lifecycle for Autonomous Systems</h2>
+        <p>
+          A view of the integrated safety lifecycle combining ISO 26262, ISO 21448 (SOTIF), and ISO 8800.
+        </p>
 
-<p>
-This project presents a view of the integrated safety lifecycle combining ISO 26262,
-ISO 21448 (SOTIF), and ISO 8800.
-</p>
+        <div class="tag-row">
+          <span class="tag">ISO 26262</span>
+          <span class="tag">ISO 21448</span>
+          <span class="tag">ISO 8800</span>
+          <span class="tag">UL 4600</span>
+          <span class="tag">Safety Case</span>
+        </div>
 
-<a href="https://github.com/avaneesh-srinivasa/integrated-safety-lifecycle-for-autonomous-systems">
-View Repository →
-</a>
+        <a class="button" href="https://github.com/avaneesh-srinivasa/integrated-safety-lifecycle-for-autonomous-systems">
+          Read the Lifecycle Walkthrough
+        </a>
+      </div>
 
+      <div class="project-card">
+        <h2>More Projects Coming Soon</h2>
+        <p>
+          Interactive live demos for scenario coverage, behavior evaluation, and
+          safety-oriented validation tooling will be added here next.
+        </p>
+        <p class="coming-soon">
+          Planned additions: Streamlit-based tools with live demos and GitHub project pages.
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">
+      Built on GitHub Pages. More portfolio artifacts will be added iteratively.
+    </div>
+  </div>
 </body>
 </html>
